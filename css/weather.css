@@ -18,7 +18,7 @@ body {
 nav {
     height: 150px;
     display: flex;
-    background-image: url("img/wooden2.jpg");
+    background-image: url("/img/wooden2.jpg");
 }
 .container {
     width: 100%;
@@ -63,7 +63,7 @@ header nav .nav-bottom ul li div{
     color: red;
     font-weight: bolder;
     font-size: 20px;
-    background-image: url("img/wooden1.jpg");
+    background-image: url("/img/wooden1.jpg");
     background-size: cover;
     border-radius: 10%;
     display: flex;
@@ -78,7 +78,7 @@ header nav .nav-bottom ul li div:hover{
 
 /* ----------------main----------------*/
 main {
-    background-image: url("img/wooden2.jpg");
+    background-image: url("/img/wooden2.jpg");
     display: flex;
     justify-content: center;
 }
@@ -89,7 +89,7 @@ main .containermain {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-image: url("img/cork-board1.jpg");
+    background-image: url("/img/cork-board1.jpg");
     background-position: center;
 }
 
@@ -97,7 +97,7 @@ main .containermain .innerbox {
     margin: 30px 0;
     width: calc((100% - 50px * 2) / 3);
     height: 400px;
-    background-image: url("img/paper1.png");
+    background-image: url("/img/paper1.png");
     background-position: center;
     background-size: cover;
     box-shadow: -5px 5px 10px 0px black;
@@ -194,5 +194,5 @@ main .containermain .innerbox {
 footer {
     width: 100%;
     height: 150px;
-    background-image: url("img/wooden2.jpg");
+    background-image: url("/img/wooden2.jpg");
 }
