@@ -176,11 +176,13 @@ main .containermain .innerbox {
 @media (max-width:1400px) {
     main .containermain .innerbox {
         width: calc((100% - 50px ) / 2);
+        transition: 0.5s linear;
     }
 }
 @media (max-width:950px) {
     main .containermain .innerbox {
         width: 100%;
+        transition: 0.5s linear;
     }
 }
 /* -------------------footer------------------- */
