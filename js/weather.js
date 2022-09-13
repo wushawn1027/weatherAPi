@@ -108,7 +108,7 @@ function arrange_cities() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
@@ -184,7 +184,7 @@ function showNorth() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
@@ -260,7 +260,7 @@ function showNorth() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
@@ -335,7 +335,7 @@ function showNorth() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
@@ -410,7 +410,7 @@ function showWest() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
@@ -485,7 +485,7 @@ function showSouth() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
@@ -560,7 +560,7 @@ function showEast() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
@@ -636,7 +636,7 @@ function showIsland() {
 
 
         innerbox.innerHTML += 
-            `<div class="innerbox">
+            `<div class="innerbox" style="background-image: url('img/paper1.png');">
             
                 <div class="inner-top">
                     <p class="p-city">${city}</p>
