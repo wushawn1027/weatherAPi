@@ -27,7 +27,7 @@ function fetch_data() {
         return response.json();
     })
     .then(function(result){
-        console.log(result);
+        // console.log(result);
         organization_data(result); 
         arrange_cities();
     });
@@ -67,7 +67,7 @@ function arrange_cities() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
@@ -143,7 +143,7 @@ function showNorth() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
@@ -219,7 +219,7 @@ function showNorth() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
@@ -294,7 +294,7 @@ function showNorth() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
@@ -369,7 +369,7 @@ function showWest() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
@@ -444,7 +444,7 @@ function showSouth() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
@@ -519,7 +519,7 @@ function showEast() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
@@ -595,7 +595,7 @@ function showIsland() {
 
     nowCities.forEach(function (city, index){
         var cityData = orgData[city];
-        console.log('cityData',cityData);
+        // console.log('cityData',cityData);
 
         var src;
         if(cityData.wxCondition == '多雲'){
