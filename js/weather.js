@@ -123,10 +123,10 @@ function arrange_cities() {
                     <p class="p-ci">${cityData.ci}</p>
                 </div>
                 <div class="in-innerbox">
-                    <img src="/img/pngsucai_1.png" width="50" height="50" alt="">
+                    <img src="../img/pngsucai_1.png" width="50" height="50" alt="">
                 </div>
                 <div class="img-box">
-                    <img src="/img/${src}.svg" alt="">
+                    <img src="../img/${src}.svg" alt="">
                 </div>
              </div>`;
     });
@@ -199,7 +199,7 @@ function showNorth() {
                     <p class="p-ci">${cityData.ci}</p>
                 </div>
                 <div class="in-innerbox">
-                    <img src="/img/pngsucai_1.png" width="50" height="50" alt="">
+                    <img src="../img/pngsucai_1.png" width="50" height="50" alt="">
                 </div>
                 <div class="img-box">
                     <img src="/img/${src}.svg" alt="">
